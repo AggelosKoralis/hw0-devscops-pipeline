@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'balenalib/amd64-debian-node:18.14-bookworm-build'
+          default: 'appsecco/datasploit:latest'
 
 # env:
 #   REGISTRY: ghcr.io
