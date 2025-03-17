@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 's390x/bash:4'
+          default: 'balenalib/amd64-debian-node:18-bookworm-build'
 
 # env:
 #   REGISTRY: ghcr.io
